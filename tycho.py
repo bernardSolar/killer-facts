@@ -28,7 +28,7 @@ db_files = [f for f in os.listdir('.') if os.path.isfile(f) and f.endswith('.db'
 
 # Define username and password pairs for authentication
 VALID_USERNAME_PASSWORD_PAIRS = {
-    'cdtestdevs': 'testing123!'
+    'killerfacts': 'factme123!'
 }
 
 # Create the Flask server
