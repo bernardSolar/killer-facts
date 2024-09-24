@@ -43,7 +43,7 @@ auth = dash_auth.BasicAuth(
     VALID_USERNAME_PASSWORD_PAIRS
 )
 
-db_path = 'cd_gpt3_5_definitions.db'
+db_path = 'KillerFactsClips.db'
 conn = sqlite3.connect(db_path)
 query = "SELECT * FROM descriptions"  # Adjust if your table name or structure is different
 df = pd.read_sql_query(query, conn)
